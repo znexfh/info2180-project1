@@ -1,7 +1,83 @@
 /* Add your CSS to this file */
+h1 {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li a {
+    text-decoration: none;
+    color: #6b7280;
+    padding: 25px;
+}
+
+li a:hover {
+    color: #5a67d8;
+}
+
+/* .overview-hero .container {
+    background-color: #e2e8f0;
+} */
+
+.overview-hero-image {
+    width: 100px;
+    height: 100px;
+    /* float: left; */
+    overflow: hidden;  
+}
+
+.overview-hero-text {
+    float: right;
+    text-align-last: left; 
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin: 7px;
+    padding: 15px;
+}
+
+.card img {
+    width: 270px;
+    height: 180px;
+}
+
+.cta {
+    text-align: right;
+}
+
+.testing-description {
+    text-align: left;
+}
+
+.stories img {
+    text-align: left;
+    width: 100px;
+    height: 100px;
+}
+
+.stories .article-body {
+    float: right;
+}
+
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans' sans-serif;
+}
+
+header {
+    background-color: white;
+    font-size: 18px;
 }
 
 .container {
@@ -9,3 +85,4 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
