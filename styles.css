@@ -1,23 +1,23 @@
 /* Add your CSS to this file */
-body {
-    margin: 0;
+* {
     font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans' sans-serif;
-}
-
-header {
-    background-color: white;
-    font-size: 18px;
 }
 
 header .container {
     display: flex;
     align-items: center;
+    background-color: white;
+    font-size: 18px;
+
 }
 
 h1 {
-    float: left;
-    padding-right: 140px;
+    /* float: left; */
+    font-size: 18px;
+    padding-right: 300px;
+    padding-left: 68px;
+
 }
 
 ul {
@@ -42,9 +42,9 @@ li a:hover {
     background-color: #e2e8f0;
     display: flex;
     align-items: center;
-    padding-left: 150px;
+    padding-left: 180px;
     padding-top: 30px;
-    padding-right: 50px;
+    padding-right: 80px;
     padding-bottom: 45px;
     margin-bottom: 15px;
 
@@ -61,17 +61,27 @@ li a:hover {
     padding-right: 120px;
 } 
 
-.testing {
+.testing .container {
+    background-color: #4a5568;
+    color: white;
     display: flex;
     align-items: center;
-    padding-left: 80px;
-    margin-left: 50px;
-    /* padding-right: ; */
+    padding-left: 120px;
+    padding-right:100px ;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    margin-bottom: 100px;
+}
+
+.testing p {
+    padding-right: 135px;
 }
 
 .container article {
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
+    padding-right: 195px;
 }
 
 .cards {
@@ -101,14 +111,15 @@ li a:hover {
 }
 
 .stories img {
-    text-align: left;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
+    width: 20%;
+    border-radius: 260px;
+    margin-right: 20px;
+    margin-bottom: 35px;
 }
 
 .stories h2 {
     color: #5a67d8;
+    margin-bottom: 50px;
 }
 
 .stories a {
@@ -135,30 +146,76 @@ article h3 {
     font-size: 21px;
 }
 
-.testing {
-    background-color: #4a5568;
-    color: white;
-}
-
 .cta .btn {
     background-color: #48bb78;
     border-radius: 5px;
     color: white;
     text-transform: uppercase;
     float:right;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    white-space: nowrap;
+    margin-right: 90px;
 }
 
 
-.newsletter {
+.newsletter div {
     background-color: #48bb78;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 115px;
+    padding-right: 115px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
-button .btn {
+/* .newsletter h3 {
+    text-align: center;
+} */
+
+.newsletter p {
+    padding-left: 170px;
+    padding-right: 350px;
+}
+
+form {
+    display: flex;
+    margin: 0;
+}
+
+/* .newsletter .form-group {
+    padding-left: 170px;
+} */
+
+form .btn {
     background-color: #5a67d8;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0px;
+    height: 40px;
+    margin-top: 20px;
+    
+    
+    
 }
 
-footer {
+div #email {
+    height: 30px;
+    display: inline-block;
+    justify-content: left;
+    margin: 0;
+}
+
+footer .container {
     background-color: #4a5568;
     color: white;
+    padding-left: 231px;
+    display: flex;
 }
+
